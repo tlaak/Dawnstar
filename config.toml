@@ -1,4 +1,4 @@
 baseURL = "https://dawnstar.berlin/"
 languageCode = "en-gb"
 title = "Dawnstar"
-theme = "ananke"
+theme = "dawnstar2018"
