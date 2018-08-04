@@ -14,32 +14,32 @@
     {{/* Derive the section name  */}}
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
 
-    <div class="layout__index--posts-container">
+    <div class="posts-page">
       {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
        {{ with .Site.GetPage "section" $section_name }}
-          <h1 class="flex-none">
+          <h1 class="recent-posts__heading">
             Recent {{ .Title }}
           </h1>
         {{ end }}
 
-      {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
+      {{ $n_posts := $.Param "recent_posts_number" | default 5 }}
 
-      <section class="layout__index--recent-posts">
+      <section class="recent-posts">
         {{/* Range through the first $n_posts items of the section */}}
         {{ range (first $n_posts $section) }}
-          <div class="relative w-100 mb4">
+          <div class="recent-posts__post">
             {{ partial "summary-with-image.html" . }}
           </div>
         {{ end }}
       </section>
 
       {{ if ge $section_count (add $n_posts 1) }}
-      <section class="layout__index--more">
-        <h1 class="f3">More</h1>
+      <section class="more-posts">
+        <h1 class="more-posts__heading">More</h1>
         {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
-        {{ range (first 4 (after $n_posts $section))  }}
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="{{ .URL }}" class="link black dim">
+        {{ range (first 5 (after $n_posts $section))  }}
+          <h2 class="more-posts__post-heading">
+            <a href="{{ .URL }}" class="more-posts__link-to-post">
               {{ .Title }}
             </a>
           </h2>
@@ -47,7 +47,7 @@
 
         {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
         {{ with .Site.GetPage "section" $section_name }}
-          <a href="{{ .URL }}" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All {{.Title }}</a>
+          <a href="{{ .URL }}" class="more-posts__link-to-all-posts">All {{.Title }}</a>
         {{ end }}
         </section>
       {{ end }}
