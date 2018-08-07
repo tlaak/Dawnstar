@@ -1,3 +1,4 @@
+@import 'normalize.css';
 @import '_code';
 @import '_hugo-internal-templates';
 @import '_social-icons';
@@ -8,10 +9,6 @@ html {
   color: #333;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
-}
-
-body {
-  margin: 0;
 }
 
 h1,
