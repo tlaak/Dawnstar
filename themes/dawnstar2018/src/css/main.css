@@ -3,8 +3,17 @@
 @import '_social-icons';
 @import '_styles';
 
+html {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
 body {
-  background-color: gold !important;
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
