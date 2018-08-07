@@ -27,3 +27,17 @@ body {
     padding: 0 20px;
   }
 }
+/*
+#6288B2
+#B4CC18
+#9DB216
+*/
+
+a,
+a:link {
+  color: #047cff;
+}
+
+a:hover {
+  color: #ff4334;
+}
