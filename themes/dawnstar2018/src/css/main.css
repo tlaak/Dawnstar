@@ -22,3 +22,11 @@ h5,
 h6 {
   font-family: Oswald, sans-serif;
 }
+
+body {
+  & .wrapper {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
