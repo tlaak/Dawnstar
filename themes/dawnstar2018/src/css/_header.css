@@ -1,3 +1,20 @@
 .site__header {
   @extend %wrapper;
+  border-bottom: 3px double hsl(0, 0%, 50%);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.site__title {
+  margin: 2rem 0 1rem;
+}
+
+.site__home-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site__description {
+  margin: 0 0 1rem;
+  display: block;
 }

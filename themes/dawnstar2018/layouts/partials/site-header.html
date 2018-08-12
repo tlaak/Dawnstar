@@ -1,11 +1,13 @@
 <header class="site__header">
-  {{ partial "site-navigation.html" . }}
   <h1 class="site__title">
-    {{ .Title | default .Site.Title }}
+    <a href="{{ .Site.BaseURL }}" class="site__home-link" rel="home">
+      {{ .Title | default .Site.Title }}
+    </a>
   </h1>
-  {{ with .Params.description }}
-    <span class="site__description">
+  <span class="site__description">
+    {{ with .Site.Params.description }}
       {{ . }}
-    </span>
-  {{ end }}
+    {{ end }}
+  </span>
+
 </header>

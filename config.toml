@@ -4,3 +4,5 @@ title = "Dawnstar"
 theme = "dawnstar2018"
 [permalinks]
   posts = "/:year/:month/:day/:title/"
+[params]
+  description = "Notes about music and life"
