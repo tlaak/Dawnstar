@@ -1,7 +1,8 @@
-+++
-title =  "{{ replace .TranslationBaseName "-" " " | title }}"
-date = {{ .Date }}
-tags = []
-featured_image = ""
-description = ""
-+++
+---
+author: timolaak
+date: {{ .Date }}
+slug: "{{ .Name }}"
+title: "{{ replace .Name "-" " " | title }}"
+tags:
+draft: true
+---
