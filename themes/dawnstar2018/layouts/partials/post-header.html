@@ -1,0 +1,12 @@
+<header class="post__header">
+  <h1 class="post__title">
+    <a href="{{.URL}}" class="post__permalink">
+      {{ .Title }}
+    </a>
+  </h1>
+  {{ if .Date }}
+    <time class="post__date">
+      {{ .Date.Format "January 2, 2006" }}
+    </time>
+  {{ end }}
+</header>
