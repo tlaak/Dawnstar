@@ -5,6 +5,11 @@
         {{ .Title }}
       </a>
     </h1>
+    {{ if .Date }}
+      <time class="post__date">
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+    {{ end }}
   </header>
   <div class="post__content">
     {{ .Content }}

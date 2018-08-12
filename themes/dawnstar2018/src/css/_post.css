@@ -14,3 +14,7 @@
     display: inline-block;
   }
 }
+
+.post__date {
+  font-size: 1rem;
+}
