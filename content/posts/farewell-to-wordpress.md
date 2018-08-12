@@ -20,8 +20,8 @@ or use a complicated rich text editor. I'm a developer so I prefer writing
 Markdown.
 
 So I decided to spend a few evenings setting up a static site generator to
-power up this site. Now everything runs with Hugo with an automated
-deployment pipeline from GitHub to Netlify.
+power up this site. Now everything runs with [Hugo](https://gohugo.io) with an automated
+deployment pipeline from [my GitHub](https://github.com/tlaak/Dawnstar) to [Netlify](https://netlify.com).
 
 All I need to do is to open my terminal, create a new post, edit the content in
 my favourite text editor, commit and push to GitHub.
