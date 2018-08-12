@@ -35,7 +35,7 @@
 
       {{ if ge $section_count (add $n_posts 1) }}
       <section class="more-posts">
-        <h1 class="more-posts__heading">More</h1>
+        <h1 class="more-posts__heading">Older posts</h1>
         {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
         {{ range (first 5 (after $n_posts $section))  }}
           <h2 class="more-posts__post-heading">
