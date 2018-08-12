@@ -6,11 +6,8 @@ layout: post
 link: http://dawnstar.berlin/2017/11/05/winter-is-coming/
 slug: winter-is-coming
 title: Winter is Coming
-wordpress_id: 166
-categories:
-- Music
 tags:
-- pagan metal
+  - pagan metal
 ---
 
 {{% youtube ICHTMZ4pGEo %}}

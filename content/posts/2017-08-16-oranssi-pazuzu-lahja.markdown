@@ -6,12 +6,9 @@ layout: post
 link: http://dawnstar.berlin/2017/08/16/oranssi-pazuzu-lahja/
 slug: oranssi-pazuzu-lahja
 title: Oranssi Pazuzu – Lahja
-wordpress_id: 15
-categories:
-- Music
 tags:
-- black metal
-- psychedelic
+  - black metal
+  - psychedelic
 ---
 
 {{% youtube Q_lGSUrvWMo %}}

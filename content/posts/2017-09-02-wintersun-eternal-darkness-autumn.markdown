@@ -6,21 +6,14 @@ layout: post
 link: http://dawnstar.berlin/2017/09/03/wintersun-eternal-darkness-autumn/
 slug: wintersun-eternal-darkness-autumn
 title: Wintersun – Eternal Darkness (Autumn)
-wordpress_id: 112
-categories:
-- Music
 tags:
-- black metal
-- pagan metal
+  - black metal
+  - pagan metal
 ---
 
 {{% youtube cwB3BQ0zWOw %}}
 
-
-
-
 Wintersun wanted to start a crowdfunding campaign to make an album and to build a professional studio. Many people were laughing, including me. I was thinking why should I spend any money to support their goals. Shouldn't an artist just create art without worrying too much about the commercial success?
-
 
 The sad truth is that also the artist has to pay the bills. Without fans who are spending their savings in merchandise and records, the artist would not be able to make a living. Music industry only provides wealth to few people who stay on the top of the charts.
 

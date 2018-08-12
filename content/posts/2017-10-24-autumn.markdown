@@ -6,12 +6,9 @@ layout: post
 link: http://dawnstar.berlin/2017/10/24/autumn/
 slug: autumn
 title: Autumn
-wordpress_id: 145
-categories:
-- Music
 tags:
-- black metal
-- post black metal
+  - black metal
+  - post black metal
 ---
 
 {{% youtube bBxF-l0Sk68 %}}

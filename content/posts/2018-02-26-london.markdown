@@ -6,12 +6,9 @@ layout: post
 link: http://dawnstar.berlin/2018/02/26/london/
 slug: london
 title: London
-wordpress_id: 226
-categories:
-- Music
 tags:
-- progressive rock
-- psychedelic
+  - progressive rock
+  - psychedelic
 ---
 
 {{% youtube 2i0bgYeJBA8 %}}

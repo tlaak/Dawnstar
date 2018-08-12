@@ -6,14 +6,11 @@ layout: post
 link: http://dawnstar.berlin/2017/10/02/berlin/
 slug: berlin
 title: Berlin
-wordpress_id: 137
-categories:
-- Music
 tags:
-- downtempo
-- electronic
+  - downtempo
+  - electronic
 ---
 
 {{% youtube UU4nEOYisCs %}}
 
-Sometimes when a man leaves the comfortable surroundings of his own _kiez_, he might notice that Berlin is actually a very big city.
+Sometimes when a man leaves the comfortable surroundings of his own *kiez*, he might notice that Berlin is actually a very big city.

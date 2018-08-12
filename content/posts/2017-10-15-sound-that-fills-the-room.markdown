@@ -6,13 +6,10 @@ layout: post
 link: http://dawnstar.berlin/2017/10/15/sound-that-fills-the-room/
 slug: sound-that-fills-the-room
 title: Sound that fills the room
-wordpress_id: 142
-categories:
-- Music
 tags:
-- ambient
-- atmospheric
-- progressive rock
+  - ambient
+  - atmospheric
+  - progressive rock
 ---
 
 {{% youtube q3PcAWvDjLk %}}
@@ -26,5 +23,3 @@ I value both high quality audio technology and great music. I'm not ready to spe
 Sometimes you don't have to. I've been very much satisfied in the sound quality of my two Sonos Play:1 speakers. They sound great, although the software is not really on the same level.
 
 Sometimes you find a new song that fills the whole room and takes you on a musical trip.
-
-
