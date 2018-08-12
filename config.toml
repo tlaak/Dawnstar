@@ -2,6 +2,8 @@ baseURL = "https://dawnstar.berlin/"
 languageCode = "en-gb"
 title = "Dawnstar"
 theme = "dawnstar2018"
+[taxonomies]
+  tag = "tags"
 [permalinks]
   posts = "/:year/:month/:day/:title/"
 [params]
