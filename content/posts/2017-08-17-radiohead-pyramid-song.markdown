@@ -1,6 +1,5 @@
 ---
 author: timolaak
-comments: true
 date: 2017-08-17 10:09:28+00:00
 layout: post
 link: http://dawnstar.berlin/2017/08/17/radiohead-pyramid-song/

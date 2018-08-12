@@ -1,6 +1,5 @@
 ---
 author: timolaak
-comments: true
 date: 2017-11-05 00:09:18+00:00
 layout: post
 link: http://dawnstar.berlin/2017/11/05/winter-is-coming/

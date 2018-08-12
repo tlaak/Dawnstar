@@ -1,6 +1,5 @@
 ---
 author: timolaak
-comments: true
 date: 2018-01-28 20:04:56+00:00
 layout: post
 link: http://dawnstar.berlin/2018/01/28/groovy-sunday/

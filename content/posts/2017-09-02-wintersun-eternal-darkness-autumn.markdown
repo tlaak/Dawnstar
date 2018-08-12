@@ -1,6 +1,5 @@
 ---
 author: timolaak
-comments: true
 date: 2017-09-02 22:38:51+00:00
 layout: post
 link: http://dawnstar.berlin/2017/09/03/wintersun-eternal-darkness-autumn/

@@ -1,6 +1,5 @@
 ---
 author: timolaak
-comments: true
 date: 2017-10-15 12:31:59+00:00
 layout: post
 link: http://dawnstar.berlin/2017/10/15/sound-that-fills-the-room/

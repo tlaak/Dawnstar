@@ -1,6 +1,5 @@
 ---
 author: timolaak
-comments: true
 date: 2017-08-19 19:53:21+00:00
 layout: post
 link: http://dawnstar.berlin/2017/08/19/steven-wilson-pariah/
