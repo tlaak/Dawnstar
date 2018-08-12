@@ -6,8 +6,8 @@
 @import '_post';
 
 html {
-  background-color: #fff;
-  color: #333;
+  background-color: hsl(55, 100%, 85%, 0.3);
+  color: hsl(0, 0%, 20%);
   font-family: Lato, sans-serif;
   font-size: 16px;
 }
@@ -29,18 +29,18 @@ body {
   }
 }
 /*
-#6288B2
-#B4CC18
-#9DB216
+hsl(212, 34%, 54%)
+hsl(68, 79%, 45%)
+hsl(68, 78%, 39%)
 */
 
 a,
 a:link {
-  color: #047cff;
+  color: hsl(211, 100%, 51%);
 }
 
 a:hover {
-  color: #ff4334;
+  color: hsl(31, 100%, 51%);
 }
 
 .recent-posts__heading {
