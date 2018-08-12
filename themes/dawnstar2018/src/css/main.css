@@ -1,4 +1,8 @@
 @import 'normalize.css';
+@import '_extensions';
+@import '_header';
+@import '_content';
+@import '_footer';
 @import '_code';
 @import '_hugo-internal-templates';
 @import '_post';
@@ -18,18 +22,6 @@ h4,
 h5,
 h6 {
   font-family: 'Quattrocento', sans-serif;
-}
-
-.site__header,
-.site__content,
-.site__footer {
-  max-width: 640px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.site__footer {
-  margin: 20px auto;
 }
 
 /*

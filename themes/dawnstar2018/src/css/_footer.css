@@ -1,0 +1,4 @@
+.site__footer {
+  @extend %wrapper;
+  margin: 20px auto;
+}
