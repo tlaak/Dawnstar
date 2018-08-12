@@ -1,4 +1,5 @@
 @import 'normalize.css';
+@import '_globals';
 @import '_extensions';
 @import '_header';
 @import '_content';
@@ -7,34 +8,3 @@
 @import '_hugo-internal-templates';
 @import '_post';
 @import '_tags';
-
-html {
-  background-color: hsl(55, 100%, 85%, 0.3);
-  color: hsl(0, 0%, 20%);
-  font-family: Lato, sans-serif;
-  font-size: 16px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Quattrocento', sans-serif;
-}
-
-/*
-hsl(212, 34%, 54%)
-hsl(68, 79%, 45%)
-hsl(68, 78%, 39%)
-*/
-
-a,
-a:link {
-  color: hsl(211, 100%, 51%);
-}
-
-a:hover {
-  color: hsl(31, 100%, 51%);
-}
