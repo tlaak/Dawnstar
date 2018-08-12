@@ -30,3 +30,19 @@
 .tags__link {
   text-transform: capitalize;
 }
+
+.terms__list {
+  margin: 1rem 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.terms__list-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  &::before {
+    content: '\002605';
+    display: inline;
+  }
+}
