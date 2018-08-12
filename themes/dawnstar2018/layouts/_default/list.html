@@ -1,13 +1,11 @@
 {{ define "main" }}
-  <article class="all-posts">
-    <main class="all-posts__content">
-      {{- .Content -}}
-    </main>
+  <div class="all-posts">
+    <h1 class="all-posts__heading">All posts</h1>
     <section class="all-posts__list">
       {{ range .Paginator.Pages }}
         {{- partial "summary.html" . -}}
       {{ end }}
     </section>
     {{- template "_internal/pagination.html" . -}}
-  </article>
+  </div>
 {{ end }}

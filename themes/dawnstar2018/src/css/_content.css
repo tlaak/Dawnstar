@@ -2,6 +2,7 @@
   @extend %wrapper;
 }
 
+.all-posts__heading,
 .taxonomy__heading,
 .recent-posts__heading,
 .more-posts__heading {
