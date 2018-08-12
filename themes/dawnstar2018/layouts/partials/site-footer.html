@@ -1,8 +1,3 @@
-<footer class="wrapper partial__footer" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
-    &copy; {{ now.Format "2006" }} {{ .Site.Title }}
-  </a>
-  {{ partial "social-follow.html" . }}
-  </div>
+<footer class="site__footer" role="contentinfo">
+  {{ .Site.Title }} is made with <a href="https://gohugo.io">Hugo</a>
 </footer>
