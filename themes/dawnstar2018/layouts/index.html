@@ -15,15 +15,7 @@
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
 
     <div class="posts-page">
-      {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
-       {{ with .Site.GetPage "section" $section_name }}
-          <h1 class="recent-posts__heading">
-            Recent {{ .Title }}
-          </h1>
-        {{ end }}
-
       {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
-
       <section class="recent-posts">
         {{/* Range through the first $n_posts items of the section */}}
         {{ range (first $n_posts $section) }}
