@@ -2,6 +2,7 @@
   @extend %wrapper;
 }
 
+.taxonomy__heading,
 .recent-posts__heading,
 .more-posts__heading {
   font-family: 'Lato', sans-serif;
