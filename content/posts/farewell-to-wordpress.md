@@ -5,7 +5,6 @@ slug: 'farewell-to-wordpress'
 title: 'Farewell to WordPress'
 tags:
   - progressive rock
-draft: true
 ---
 
 {{% spotify 4Ilt9N2XASXY60DSEitW5K %}}
