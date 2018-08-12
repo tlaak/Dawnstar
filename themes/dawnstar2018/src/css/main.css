@@ -1,4 +1,5 @@
 @import 'normalize.css';
+@import '_variables';
 @import '_globals';
 @import '_extensions';
 @import '_header';
