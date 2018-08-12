@@ -20,13 +20,18 @@ h6 {
   font-family: 'Quattrocento', sans-serif;
 }
 
-body {
-  & .wrapper {
-    max-width: 640px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
+.site__header,
+.site__content,
+.site__footer {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
+
+.site__footer {
+  margin: 20px auto;
+}
+
 /*
 hsl(212, 34%, 54%)
 hsl(68, 79%, 45%)
