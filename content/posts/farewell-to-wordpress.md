@@ -3,7 +3,8 @@ author: timolaak
 date: 2018-08-12T21:27:26+01:00
 slug: 'farewell-to-wordpress'
 title: 'Farewell to WordPress'
-? tags
+tags:
+  - progressive rock
 draft: true
 ---
 
