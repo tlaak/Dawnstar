@@ -1,9 +1,13 @@
-<ul class="partial__tags">
-  {{ range .Params.tags }}
-   <li class="list">
-     <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
-       {{- . -}}
-     </a>
-   </li>
+<aside class="tags">
+  {{ if .Params.tags }}
+  <ul class="tags__list">
+    {{ range .Params.tags }}
+    <li class="tags__list-item">
+      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="tags__link">
+        {{- . -}}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
   {{ end }}
-</ul>
+</aside>

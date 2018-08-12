@@ -4,6 +4,7 @@
 @import '_social-icons';
 @import '_styles';
 @import '_post';
+@import '_tags';
 
 html {
   background-color: hsl(55, 100%, 85%, 0.3);
