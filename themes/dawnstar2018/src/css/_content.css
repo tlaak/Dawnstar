@@ -1,3 +1,11 @@
 .site__content {
   @extend %wrapper;
 }
+
+.recent-posts__heading,
+.more-posts__heading {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
