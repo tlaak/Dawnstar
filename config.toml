@@ -11,7 +11,7 @@ googleAnalytics = "UA-364155-6"
     anonymizeIP = true
     disable = false
     respectDoNotTrack = true
-    useSessionStorage = false
+    useSessionStorage = true
   [privacy.instagram]
     disable = false
     simple = false
