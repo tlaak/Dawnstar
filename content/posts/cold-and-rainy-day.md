@@ -5,7 +5,6 @@ slug: 'cold-and-rainy-day'
 title: 'Cold And Rainy Day'
 tags:
   - gothic rock
-draft: true
 ---
 
 # Cold And Rainy Day
