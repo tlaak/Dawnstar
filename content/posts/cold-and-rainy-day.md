@@ -7,8 +7,6 @@ tags:
   - gothic rock
 ---
 
-# Cold And Rainy Day
-
 {{% spotify 1Q3GpZ6Jx2O0Vy6NiOf17W %}}
 
 It's been the coldest day since last spring. I've been wearing shorts for the
