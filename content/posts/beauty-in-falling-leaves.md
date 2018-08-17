@@ -20,9 +20,9 @@ and happy times.
 
 For me autumn has always represented something different. It's a start of
 something. It's often been the time when interesting things in life happen.
-Things that will define what your future will look like.
+Things that will define how your future will look like.
 
-Beginning of studies in a new school, starting in a new job, meeting new people,
-falling in love and starting a long lasting relationship.
+Beginning of studies in a new school, starting in a new job, meeting new people
+or falling in love and starting a long lasting relationship.
 
 I'm curious to see what's waiting for me this year!
