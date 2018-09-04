@@ -344,6 +344,10 @@ a:hover {
   color: hsl(31, 100%, 51%);
 }
 
+img {
+  max-width: 100%;
+}
+
 .site__header, .site__content, .site__footer {
   max-width: 640px;
   margin: 0 auto;

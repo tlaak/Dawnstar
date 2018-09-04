@@ -22,3 +22,7 @@ a:link {
 a:hover {
   color: hsl(31, 100%, 51%);
 }
+
+img {
+  max-width: 100%;
+}
