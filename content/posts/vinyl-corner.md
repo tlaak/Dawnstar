@@ -20,9 +20,13 @@ which is connected via [Rega Fono Mini A2D pre-amp](http://www.rega.co.uk/fono-m
 to the line-in connector of a [Sonos Play 5](https://www.sonos.com/en-gb/shop/play5.html) speaker.
 
 The setup is not perfect though as the pre-amp doesn't have a volume output
-control at all. The only way to adjust the volume is to access the room settings
+control at all. ~~The only way to adjust the volume is to access the room settings
 in the Sonos app and change line-in level from there. The built-in volume control
-in Sonos is disabled for line-in signal. Maybe I'll get a better pre-amp some day.
+in Sonos is disabled for line-in signal. Maybe I'll get a better pre-amp some day.~~
+
+**Update 17/11/2018:** This is not actually true. The volume control works as you
+would expect it to work. I'm not sure if this was due to an update in the Sonos
+software or some error in my configuration.
 
 The shelf is made by [KomodaFurniture](https://www.etsy.com/uk/listing/630836743/industrial-tv-stand-vinyl-storage-unit).
 
