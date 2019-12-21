@@ -9,7 +9,7 @@ tags:
 draft: false
 ---
 
-{{% spotify 29tMLLWAme0u8brGixDeex %}}
+{{< spotify track 29tMLLWAme0u8brGixDeex >}}
 
 After going to Slovenia for Metaldays festival, I decided to take a little
 break and be without alcohol for few weeks. At the same time I also reduced

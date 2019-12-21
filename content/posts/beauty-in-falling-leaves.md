@@ -10,7 +10,7 @@ tags:
 draft: false
 ---
 
-{{% spotify 6e32JnkTy46WgO1waYifJo %}}
+{{< spotify track 6e32JnkTy46WgO1waYifJo >}}
 
 Autumn is the time when the nature is preparing itself for the winter.
 

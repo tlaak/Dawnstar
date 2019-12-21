@@ -8,7 +8,7 @@ tags:
   - electronic
 ---
 
-{{% spotify 7rdZtn7dHpNflObVnOIX3U %}}
+{{< spotify track 7rdZtn7dHpNflObVnOIX3U >}}
 
 The internet! The internet is broken! Our broadband provider
 [Relish](https://www1.relish.net) has usually worked just fine without any major

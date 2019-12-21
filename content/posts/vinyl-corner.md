@@ -11,7 +11,7 @@ tags:
   - dance
 ---
 
-{{% spotify 09jscLcwa4usINbtfzo5FL %}}
+{{< spotify track 09jscLcwa4usINbtfzo5FL >}}
 
 After dreaming of a vinyl player for years, I finally decided to get one.
 
