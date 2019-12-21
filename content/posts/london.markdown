@@ -10,7 +10,7 @@ tags:
   - psychedelic
 ---
 
-{{% youtube 2i0bgYeJBA8 %}}
+{{< youtube 2i0bgYeJBA8 >}}
 
 "A light snow is falling on London..."
 

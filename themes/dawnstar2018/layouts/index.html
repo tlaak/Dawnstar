@@ -33,14 +33,14 @@
         {{ range (first 5 (after $n_posts $section))  }}
           <li class="more-posts__list-item">
             <time class="more-posts__post-date">{{ .Date.Format "02/01/2006" }}</time>
-            <a href="{{ .URL }}" class="more-posts__link-to-post">{{ .Title }}</a>
+            <a href="{{ .Permalink }}" class="more-posts__link-to-post">{{ .Title }}</a>
           </li>
         {{ end }}
         </ul>
 
         {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
         {{ with .Site.GetPage "section" $section_name }}
-          <a href="{{ .URL }}" class="more-posts__link-to-all-posts">All {{.Title }}</a>
+          <a href="{{ .Permalink }}" class="more-posts__link-to-all-posts">All {{.Title }}</a>
         {{ end }}
         </section>
       {{ end }}

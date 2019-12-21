@@ -9,17 +9,17 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    {{ .Hugo.Generator }}
+    {{ hugo.Generator }}
     {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
       <meta name="robots" content="index, follow">
     {{ else }}
       <meta name="robots" content="noindex, nofollow">
     {{ end }}
-    
+
     {{ template "_internal/google_analytics_async.html" . }}
 
-    <link href="https://fonts.googleapis.com/css?family=Lato|Quattrocento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Quattrocento&display=swap" rel="stylesheet">
 
     {{ $stylesheet := .Site.Data.webpack_assets.app }}
     {{ with $stylesheet.css }}
@@ -34,10 +34,9 @@
       {{ partial "site-favicon.html" . }}
     {{ end }}
 
-    {{ if .RSSLink }}
-      <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-      <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-    {{ end }}
+    {{ range .AlternativeOutputFormats -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
 
     {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}
     {{- template "_internal/opengraph.html" . -}}

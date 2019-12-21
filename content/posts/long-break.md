@@ -8,7 +8,7 @@ tags:
   - rock
 ---
 
-{{% spotify 59toDlX8sC1BEHcqmi9Nyq %}}
+{{< spotify track 59toDlX8sC1BEHcqmi9Nyq >}}
 
 Once again I totally forgot to write anything on this blog. Nothing unheard of though.
 

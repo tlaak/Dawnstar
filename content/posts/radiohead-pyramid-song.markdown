@@ -10,7 +10,7 @@ tags:
   - post rock
 ---
 
-{{% youtube 3M_Gg1xAHE4 %}}
+{{< youtube 3M_Gg1xAHE4 >}}
 
 Autumn 1999, a small town somewhere in Central Finland. I was tired and under the weather. My friend introduced me to Radiohead and played OK Computer. The others kept chatting in the kitchen and drinking beer, but I was laying down and focusing on the music. I think it was my first real connection to post rock and its daydreaming soundscapes.
 

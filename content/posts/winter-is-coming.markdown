@@ -9,7 +9,7 @@ tags:
   - pagan metal
 ---
 
-{{% youtube ICHTMZ4pGEo %}}
+{{< youtube ICHTMZ4pGEo >}}
 
 It's getting colder and colder. This very long song always reminds me of winter. I fell in love with Moonsorrow in the beginning of 2007 when I was living in Tampere, 2 hours north of Helsinki. It's probably one of the best places to live in Finland. Big enough to have everything you need, but small enough to have the atmosphere of a small town.
 
