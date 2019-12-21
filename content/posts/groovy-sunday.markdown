@@ -9,6 +9,6 @@ tags:
   - jazz
 ---
 
-{{% youtube jx4seZTFfUY %}}
+{{< youtube jx4seZTFfUY >}}
 
 I mostly listen to metal music, but I have a special place in my heart for jazz and groovy music. It's perfect for lazy Sundays when the weather outside is too grey and you want to feel creative.

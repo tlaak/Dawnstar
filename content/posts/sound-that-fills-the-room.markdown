@@ -11,7 +11,7 @@ tags:
   - progressive rock
 ---
 
-{{% youtube q3PcAWvDjLk %}}
+{{< youtube q3PcAWvDjLk >}}
 
 There is music that sounds just awesome, regardless of the way you listen to it. Be it from a vinyl record, digital high resolution lossless file or good old C-cassette, we often give highest value to the song itself and the lyrics, not the media.
 

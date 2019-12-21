@@ -10,7 +10,7 @@ tags:
   - psychedelic
 ---
 
-{{% youtube Q_lGSUrvWMo %}}
+{{< youtube Q_lGSUrvWMo >}}
 
 In 2009 or 2010 I saw Oranssi Pazuzu for the first time at Nosturi in Helsinki, Finland. I didn't really know their music back then. To be honest, I wasn't too impressed. It was a quiet night. There were less than 50 people watching the show.
 

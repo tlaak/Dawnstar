@@ -10,7 +10,7 @@ tags:
   - post black metal
 ---
 
-{{% youtube bBxF-l0Sk68 %}}
+{{< youtube bBxF-l0Sk68 >}}
 
 One week ago it was still almost 25ºC warm. A real Indian Summer! As the days are getting shorter and shorter, the weather becomes more rainy and foggy. It will be mostly like this until March, when the spring will finally win. Winter in Berlin is dark and grey.
 

@@ -10,7 +10,7 @@ tags:
   - pagan metal
 ---
 
-{{% youtube cwB3BQ0zWOw %}}
+{{< youtube cwB3BQ0zWOw >}}
 
 Wintersun wanted to start a crowdfunding campaign to make an album and to build a professional studio. Many people were laughing, including me. I was thinking why should I spend any money to support their goals. Shouldn't an artist just create art without worrying too much about the commercial success?
 
