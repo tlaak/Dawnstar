@@ -30,7 +30,7 @@ software or some error in my configuration.
 
 The shelf is made by [KomodaFurniture](https://www.etsy.com/uk/listing/630836743/industrial-tv-stand-vinyl-storage-unit).
 
-{{% figure src="/media/vinyl-corner.jpg" title="My vinyl corner" alt="My vinyl corner" %}}
+{{< figure src="/media/vinyl-corner.jpg" title="My vinyl corner" alt="My vinyl corner" >}}
 
 I really like how my setup looks like. The sound of a record feels very different after
 getting used to digital streaming services, but it's very much subjective anyway. Some
