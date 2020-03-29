@@ -17,7 +17,6 @@ const THEME_DIST_PATH = path.resolve(HUGO_THEME_PATH, 'static', 'dist')
 const HUGO_DIST_PATH = path.resolve(SITE_ROOT, 'public')
 
 export default (env) => {
-  console.log(env)
   const isDev = env === 'dev'
 
   return {
