@@ -21,8 +21,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Quattrocento&display=swap" rel="stylesheet">
 
-    {{ $stylesheet := .Site.Data.webpack_assets.app }}
-    {{ with $stylesheet.css }}
+    {{ $stylesheet := .Site.Data.manifest.css }}
+    {{ with $stylesheet }}
       <link href="{{ relURL (printf "%s%s" "dist/" .) }}" rel="stylesheet">
     {{ end }}
 

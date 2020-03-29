@@ -8,7 +8,7 @@ description = "My own theme based on Ananke"
 # homepage = "https://github.com/budparr/gohugo-theme-ananke"
 tags = ["website", "starter", "responsive", "Disqus", "blog"]
 features = ["posts", "shortcodes", "related content", "comments"]
-min_version = 0.30.1
+min_version = "0.30.1"
 
 [author]
   name = "Timo Laak"
