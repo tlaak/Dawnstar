@@ -1,2 +1,3 @@
 # Redirect default Netlify subdomain to primary domain
 https://dawnstar.netlify.com/* https://dawnstar.berlin/:splat 301!
+https://dawnstar.netlify.app/* https://dawnstar.berlin/:splat 301!
