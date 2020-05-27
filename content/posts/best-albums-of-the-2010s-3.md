@@ -7,7 +7,7 @@ tags:
 draft: false
 ---
 
-{{< spotify album 1PhYHO7Pva9e1YQY5GQ8zx >}}
+{{< spotify album 1PhYHO7Pva9e1YQY5GQ8zx "Haken - Vector" >}}
 
 I had totally missed Haken until very recently. I remember having an opportunity to see them live in 2019 but I was busy with something else and didn't want to squeeze another gig in my diary.
 

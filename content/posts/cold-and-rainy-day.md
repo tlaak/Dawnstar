@@ -7,7 +7,7 @@ tags:
   - gothic rock
 ---
 
-{{< spotify track 1Q3GpZ6Jx2O0Vy6NiOf17W >}}
+{{< spotify track 1Q3GpZ6Jx2O0Vy6NiOf17W "Closterkeller - To Albo To" >}}
 
 It's been the coldest day since last spring. I've been wearing shorts for the
 whole summer, but today I was freezing. It was also raining heavily in the noon.

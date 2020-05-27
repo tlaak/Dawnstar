@@ -10,7 +10,7 @@ tags:
   - viking metal
 ---
 
-{{< spotify album 2AC8ZCFWJmkLP6pkBWNhdn >}}
+{{< spotify album 2AC8ZCFWJmkLP6pkBWNhdn "Wintersun - The Forest Seasons" >}}
 
 The second pick on my albums of the decade list is **The Forest Seasons** by **Wintersun**.
 

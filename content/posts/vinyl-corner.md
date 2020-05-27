@@ -11,7 +11,7 @@ tags:
   - dance
 ---
 
-{{< spotify track 09jscLcwa4usINbtfzo5FL >}}
+{{< spotify track 09jscLcwa4usINbtfzo5FL "Jamiroquai - When You Gonna Learn?" >}}
 
 After dreaming of a vinyl player for years, I finally decided to get one.
 

@@ -10,7 +10,7 @@ tags:
   - metal
 ---
 
-{{< spotify track 5HGzGElmhG7Fk2d0qh00Zh >}}
+{{< spotify track 5HGzGElmhG7Fk2d0qh00Zh "Opeth - Isolation Years" >}}
 
 Hello from the world of isolation and social distancing!
 

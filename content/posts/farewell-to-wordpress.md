@@ -7,7 +7,7 @@ tags:
   - progressive rock
 ---
 
-{{< spotify track 4Ilt9N2XASXY60DSEitW5K >}}
+{{< spotify track 4Ilt9N2XASXY60DSEitW5K "Rush - A Farewell To Kings" >}}
 
 Originally I set up this site to be able to just post links to different kinds
 of music I like. I used [WordPress.com](https://wordpress.com) instead of
