@@ -1,3 +1,13 @@
-<iframe src="https://open.spotify.com/embed/{{ .Get 0 }}/{{ .Get 1 }}"
-  width="300" height="380" frameborder="0"
-  allowtransparency="true" allow="encrypted-media"></iframe>
+<div class="spotify-widget">
+  <iframe class="spotify-widget__embed" src="https://open.spotify.com/embed/{{ .Get 0 }}/{{ .Get 1 }}"
+    width="300" height="380" frameborder="0" title="{{ .Get 2 }}"
+    allowtransparency="true" allow="encrypted-media">
+  </iframe>
+  {{ if .Get 2 }}
+  <div class="spotify-widget__link" >
+    <a href="https://open.spotify.com/{{ .Get 0 }}/{{ .Get 1 }}">
+      {{ .Get 2 }}
+    </a>
+  </div>
+  {{ end }}
+</div>
