@@ -2,16 +2,10 @@ baseURL = "https://dawnstar.berlin/"
 languageCode = "en-gb"
 title = "Dawnstar"
 theme = "dawnstar2018"
-googleAnalytics = "UA-364155-6"
 
 [privacy]
   [privacy.disqus]
     disable = true
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    disable = false
-    respectDoNotTrack = true
-    useSessionStorage = true
   [privacy.instagram]
     disable = false
     simple = false
@@ -28,9 +22,9 @@ googleAnalytics = "UA-364155-6"
 
 [taxonomies]
   tag = "tags"
-  
+
 [permalinks]
   posts = "/:year/:month/:day/:title/"
-  
+
 [params]
   description = "Notes about music and life"
