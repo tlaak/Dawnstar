@@ -5,7 +5,7 @@ import ManifestPlugin from 'webpack-manifest-plugin'
 import WebpackShellPlugin from 'webpack-shell-plugin'
 import path from 'path'
 import postcssImport from 'postcss-import'
-import postcssCssnext from 'postcss-cssnext'
+import postcssPresetEnv from 'postcss-preset-env'
 import postcssNormalize from 'postcss-normalize'
 import postcssNested from 'postcss-nested'
 import postcssExtend from 'postcss-extend'
@@ -71,7 +71,7 @@ export default (env) => {
                   postcssNormalize(),
                   postcssNested(),
                   postcssExtend(),
-                  postcssCssnext({
+                  postcssPresetEnv({
                     features: {
                       autoprefixer: {
                         grid: true,

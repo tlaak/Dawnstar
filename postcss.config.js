@@ -4,7 +4,7 @@ module.exports = {
     'postcss-normalize': {},
     'postcss-nested': {},
     'postcss-extend': {},
-    'postcss-cssnext': {
+    'postcss-preset-env': {
       features: {
         autoprefixer: {
           grid: true,
