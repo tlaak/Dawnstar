@@ -66,19 +66,6 @@ export default (env) => {
             {
               loader: 'postcss-loader',
               options: {
-                plugins: [
-                  postcssImport(),
-                  postcssNormalize(),
-                  postcssNested(),
-                  postcssExtend(),
-                  postcssPresetEnv({
-                    features: {
-                      autoprefixer: {
-                        grid: true,
-                      },
-                    },
-                  }),
-                ],
               },
             },
           ],
