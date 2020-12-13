@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "webpack --env=prod --progress",
+    "build": "webpack --env=prod --progress --mode=production",
     "start": "webpack-dev-server --env=dev -d"
   },
   "devDependencies": {
