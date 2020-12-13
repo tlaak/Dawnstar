@@ -5,7 +5,7 @@ slug: 'christmas-is-coming'
 title: 'Christmas Is Coming'
 tags:
   - progressive rock
-draft: true
+draft: false
 ---
 
 {{< spotify track 79AoeGiogHb3cVWGRy8yGh "Steven Wilson - EYEWITNESS" >}}
