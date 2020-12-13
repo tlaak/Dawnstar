@@ -27,11 +27,10 @@ export default (env) => {
       contentBase: [HUGO_DIST_PATH],
       watchContentBase: true,
     },
-    entry: {
-      app: [`${SOURCE_PATH}/js/main.js`],
-    },
+    entry: [`${SOURCE_PATH}/js/main.js`],
     output: {
       filename: '[name].[chunkhash].js',
+      publicPath: '',
       path: THEME_DIST_PATH,
     },
     module: {
@@ -93,8 +92,8 @@ export default (env) => {
       new CleanWebpackPlugin(),
       // Write CSS
       new MiniCssExtractPlugin({
-        filename: isDev ? '[name].css' : '[name].[hash].css',
-        chunkFilename: isDev ? '[id].css' : '[id].[hash].css',
+        filename: isDev ? '[name].css' : '[name].[chunkhash].css',
+        chunkFilename: isDev ? '[id].css' : '[id].[chunkhash].css',
       }),
       // Write the manifest file
       new WebpackManifestPlugin({
