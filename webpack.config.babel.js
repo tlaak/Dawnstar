@@ -1,8 +1,8 @@
 import { CleanWebpackPlugin } from 'clean-webpack-plugin'
 import MiniCssExtractPlugin from 'mini-css-extract-plugin'
 import OptimizeCSSAssetsPlugin from 'optimize-css-assets-webpack-plugin'
-import ManifestPlugin from 'webpack-manifest-plugin'
-import WebpackShellPlugin from 'webpack-shell-plugin'
+import { WebpackManifestPlugin } from 'webpack-manifest-plugin'
+import WebpackShellPluginNext from 'webpack-shell-plugin-next'
 import path from 'path'
 import postcssImport from 'postcss-import'
 import postcssPresetEnv from 'postcss-preset-env'
@@ -28,7 +28,7 @@ export default (env) => {
       watchContentBase: true,
     },
     entry: {
-      app: ['babel-polyfill', `${SOURCE_PATH}/js/main.js`],
+      app: [`${SOURCE_PATH}/js/main.js`],
     },
     output: {
       filename: '[name].[chunkhash].js',
@@ -53,9 +53,6 @@ export default (env) => {
           use: [
             {
               loader: MiniCssExtractPlugin.loader,
-              options: {
-                hmr: isDev,
-              },
             },
             {
               loader: 'css-loader',
@@ -66,6 +63,21 @@ export default (env) => {
             {
               loader: 'postcss-loader',
               options: {
+                postcssOptions: {
+                  plugins: {
+                    'postcss-import': {},
+                    'postcss-normalize': {},
+                    'postcss-nested': {},
+                    'postcss-extend': {},
+                    'postcss-preset-env': {
+                      features: {
+                        autoprefixer: {
+                          grid: true,
+                        },
+                      },
+                    },
+                  },
+                },
               },
             },
           ],
@@ -85,7 +97,7 @@ export default (env) => {
         chunkFilename: isDev ? '[id].css' : '[id].[hash].css',
       }),
       // Write the manifest file
-      new ManifestPlugin({
+      new WebpackManifestPlugin({
         fileName: `${HUGO_THEME_PATH}/data/manifest.json`,
         writeToFileEmit: true,
         map: (file) => {
@@ -103,12 +115,14 @@ export default (env) => {
       // -w starts a watch
       // -v sets verbose output
       // context property is broken (needs a path)
-      new WebpackShellPlugin({
-        onBuildEnd: isDev
-          ? [
-              `hugo --config ${SITE_ROOT}/config.toml -D -w -v -d ${HUGO_DIST_PATH}`,
-            ]
-          : [`hugo --config ${SITE_ROOT}/config.toml -d ${HUGO_DIST_PATH}`],
+      new WebpackShellPluginNext({
+        onBuildEnd: {
+          scripts: isDev
+            ? [
+                `hugo --config ${SITE_ROOT}/config.toml -D -w -v -d ${HUGO_DIST_PATH}`,
+              ]
+            : [`hugo --config ${SITE_ROOT}/config.toml -d ${HUGO_DIST_PATH}`],
+        },
       }),
     ].filter(Boolean),
   }
