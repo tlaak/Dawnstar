@@ -4,6 +4,8 @@ date: 2021-01-17T19:32:06Z
 slug: 'reducing-social-media-usage'
 title: 'Reducing Social Media Usage'
 tags:
+  - ambient
+  - downtempo
 draft: false
 ---
 
