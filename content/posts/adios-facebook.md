@@ -26,6 +26,6 @@ Another more serious issue with Facebook is that they haven't really bothered cl
 
 Many groups are badly moderated and popular public posts will often get tons of hateful comments on them. This is really sad and depressing and the main reason why I wanted to leave the whole platform.
 
-I also think that many friend connections on Facebook are superficial and you don't really know them. Why do you connect with old school friends or workmates you haven't seen or spoken with in 15-25 years? Do you actually care about them? Do they care about you? Well, some of them are still quite close friends but there are other means to communicate with them. I do have several chat groups with friends and people I used to work with. But I bet there are a lot of Facebook friends that will not even notice I left.
+I also think that many friend connections on Facebook are superficial and you don't really know them. Why do you connect with old school friends or workmates you haven't seen or spoken with in 15-25 years? Do you actually care about them? Do they care about you? Well, some of them are still quite close friends but there are other means to communicate with them. I do have several chat groups with friends and people I used to work with, b~ut I bet there are a lot of Facebook friends who will not even notice I left.
 
 Anyway, if Facebook makes you feel a bit depressed, take a little break and see how it improves your life.
