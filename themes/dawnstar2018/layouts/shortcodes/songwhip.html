@@ -1,0 +1,18 @@
+<div class="songwhip-widget">
+  <iframe
+    class="songwhip-widget__embed"
+    src="{{ .Get 0 }}"
+    width="640"
+    height="320"
+    frameborder="0"
+    title="{{ .Get 1 }}"
+    allowtransparency="true"
+    allow="encrypted-media"
+  >
+  </iframe>
+  {{ if .Get 1 }}
+  <div class="spotify-widget__link">
+    <a href="{{ .Get 0 }}"> {{ .Get 1 }} </a>
+  </div>
+  {{ end }}
+</div>
