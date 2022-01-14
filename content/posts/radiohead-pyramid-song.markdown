@@ -2,7 +2,7 @@
 author: timolaak
 date: 2017-08-17 10:09:28+00:00
 layout: post
-link: http://dawnstar.berlin/2017/08/17/radiohead-pyramid-song/
+link: http://dawnstar.blog/2017/08/17/radiohead-pyramid-song/
 slug: radiohead-pyramid-song
 title: Radiohead – Pyramid Song
 tags:

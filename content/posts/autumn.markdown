@@ -2,7 +2,7 @@
 author: timolaak
 date: 2017-10-24 17:41:55+00:00
 layout: post
-link: http://dawnstar.berlin/2017/10/24/autumn/
+link: http://dawnstar.blog/2017/10/24/autumn/
 slug: autumn
 title: Autumn
 tags:

@@ -2,7 +2,7 @@
 author: timolaak
 date: 2017-11-05 00:09:18+00:00
 layout: post
-link: http://dawnstar.berlin/2017/11/05/winter-is-coming/
+link: http://dawnstar.blog/2017/11/05/winter-is-coming/
 slug: winter-is-coming
 title: Winter is Coming
 tags:

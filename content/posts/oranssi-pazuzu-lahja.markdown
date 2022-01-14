@@ -2,7 +2,7 @@
 author: timolaak
 date: 2017-08-16 21:55:48+00:00
 layout: post
-link: http://dawnstar.berlin/2017/08/16/oranssi-pazuzu-lahja/
+link: http://dawnstar.blog/2017/08/16/oranssi-pazuzu-lahja/
 slug: oranssi-pazuzu-lahja
 title: Oranssi Pazuzu – Lahja
 tags:

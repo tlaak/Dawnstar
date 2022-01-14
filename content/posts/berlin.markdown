@@ -2,7 +2,7 @@
 author: timolaak
 date: 2017-10-01 22:56:41+00:00
 layout: post
-link: http://dawnstar.berlin/2017/10/02/berlin/
+link: http://dawnstar.blog/2017/10/02/berlin/
 slug: berlin
 title: Berlin
 tags:

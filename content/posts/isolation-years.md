@@ -2,7 +2,7 @@
 author: timolaak
 layout: post
 title: "Isolation Years"
-link: http://dawnstar.berlin/2018/02/26/isolation-years/
+link: http://dawnstar.blog/2018/02/26/isolation-years/
 date: 2020-03-29T15:22:30+01:00
 slug: isolation-years
 title: Isolation Years

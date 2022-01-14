@@ -2,7 +2,7 @@
 author: timolaak
 date: 2017-08-19 19:53:21+00:00
 layout: post
-link: http://dawnstar.berlin/2017/08/19/steven-wilson-pariah/
+link: http://dawnstar.blog/2017/08/19/steven-wilson-pariah/
 slug: steven-wilson-pariah
 title: Steven Wilson – Pariah
 tags:

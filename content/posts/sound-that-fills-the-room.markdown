@@ -2,7 +2,7 @@
 author: timolaak
 date: 2017-10-15 12:31:59+00:00
 layout: post
-link: http://dawnstar.berlin/2017/10/15/sound-that-fills-the-room/
+link: http://dawnstar.blog/2017/10/15/sound-that-fills-the-room/
 slug: sound-that-fills-the-room
 title: Sound that fills the room
 tags:

@@ -2,7 +2,7 @@
 author: timolaak
 date: 2018-02-26 07:53:52+00:00
 layout: post
-link: http://dawnstar.berlin/2018/02/26/london/
+link: http://dawnstar.blog/2018/02/26/london/
 slug: london
 title: London
 tags:
