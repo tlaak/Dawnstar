@@ -22,14 +22,12 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Quattrocento&display=swap" rel="stylesheet">
 
-    {{ $stylesheet := .Site.Data.manifest.css }}
-    {{ with $stylesheet }}
-      <link href="{{ relURL (printf "%s%s" "dist/" .) }}" rel="stylesheet">
+    {{ $css := resources.Get "/styles/main.css" }}
+    {{ $css = $css | resources.PostCSS }}
+    {{ if hugo.IsProduction }}
+    {{ $css = $css | minify | fingerprint | resources.PostProcess }}
     {{ end }}
-
-    {{ range .Site.Params.custom_css }}
-      <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
-    {{ end }}
+    <link href="{{ $css.RelPermalink }}" rel="stylesheet"  integrity="{{ $css.Data.Integrity }}"/>
 
     {{ block "favicon" . }}
       {{ partial "site-favicon.html" . }}

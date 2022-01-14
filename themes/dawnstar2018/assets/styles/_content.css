@@ -1,0 +1,34 @@
+.site__content {
+  @extend %wrapper;
+}
+
+.terms__heading,
+.all-posts__heading,
+.taxonomy__heading,
+.recent-posts__heading,
+.more-posts__heading {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+.more-posts__post-date {
+  font-size: 0.9rem;
+}
+
+.more-posts__list {
+  display: table;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.more-posts__list-item {
+  display: table-row;
+}
+
+.more-posts__link-to-post,
+.more-posts__post-date {
+  display: table-cell;
+  padding: 0.3rem;
+}

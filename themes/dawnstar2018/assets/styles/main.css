@@ -1,0 +1,10 @@
+@import '@csstools/normalize.css';
+@import '_globals.css';
+@import '_extensions.css';
+@import '_header.css';
+@import '_content.css';
+@import '_footer.css';
+@import '_code.css';
+@import '_hugo-internal-templates.css';
+@import '_post.css';
+@import '_tags.css';
