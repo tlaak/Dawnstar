@@ -28,3 +28,6 @@ theme = "dawnstar2018"
 
 [params]
   description = "Notes about music and life"
+
+[build]
+  writeStats = true
