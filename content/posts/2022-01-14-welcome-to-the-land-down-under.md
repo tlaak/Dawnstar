@@ -15,7 +15,7 @@ A decent amount of water has flown through river Thames since my last update. Ac
 
 It's been a long process and the thought of leaving the UK started brewing in our heads straight away when I was made redundant from my job in July 2020. Why leave the UK? Well, mostly because of the effects of Brexit, Boris Johnson's government and the way how they've dealt with the pandemic.
 
-After considering our options we came to a conclusion that an English speaking country is probably the best option for both of us, so we decided to go with Australia. My wife is Australian so that seemed logical and I've always wanted to live in a hot climate. Many twists and turns and tons of paperwork later, we lodged a visa application in Decmeber 2020. A little bit more paperwork and a health inspection was required before I finally received my visa grant letter in April 2021, after only 4 months of waiting.
+After considering our options we came to a conclusion that an English speaking country is probably the best option for both of us, so we decided to go with Australia. My wife is Australian so that seemed logical and I've always wanted to live in a hot climate. Many twists and turns and tons of paperwork later, we lodged a visa application in December 2020. A little bit more paperwork and a health inspection was required before I finally received my visa grant letter in April 2021, after only 4 months of waiting.
 
 6 months later, we were fully engaged in packing mode and getting the last things sorted out in the UK, including a big farewell party. It went much better than we had hoped for. It was so lovely to see so many friends attending!
 
