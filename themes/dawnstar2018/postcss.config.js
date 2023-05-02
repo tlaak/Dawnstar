@@ -10,6 +10,7 @@ const themeDir = `${__dirname}/assets/styles`
 
 module.exports = {
   plugins: [
+    require('autoprefixer'),
     require('postcss-import')({ path: themeDir }),
     require('postcss-normalize'),
     require('postcss-nested'),
