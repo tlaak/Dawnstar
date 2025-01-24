@@ -23,6 +23,6 @@ Despite not drinking alcohol, I've managed to participate in some social
 activities. I've went to a board game evening, scored the third place in a pub
 quiz with the team, and I even went to former workmate's farewell party.
 
-So yes, it is possible to live a social lifewithout drinking.
+So yes, it is possible to live a social life without drinking.
 The problem is the other people who are drinking as they will become slightly
 annoying when they get drunk. Who would have thought that?
