@@ -14,6 +14,6 @@ You'll need a hugo binary, which can be installed with `brew install hugo`.
 
 `hugo new posts/my-post-name.md`
 
-### Previe changes locally
+### Preview changes locally
 
 `hugo serve` and open http://localhost:1313 in your browser.
