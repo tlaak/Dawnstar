@@ -14,7 +14,6 @@ module.exports = {
     require('postcss-import')({ path: themeDir }),
     require('postcss-normalize'),
     require('postcss-nested'),
-    require('postcss-extend')({ path: themeDir }),
     require('postcss-preset-env')({
       path: themeDir,
       features: {

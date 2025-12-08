@@ -1,7 +1,6 @@
 .site__footer {
-  @extend %wrapper;
-
+  max-width: 640px;
   margin: 2rem auto;
-  padding-top: 2rem;
+  padding: 2rem 20px 0;
   border-top: 3px double hsl(0deg 0% 50%);
 }
