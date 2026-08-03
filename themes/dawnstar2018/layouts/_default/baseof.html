@@ -16,7 +16,8 @@
       <meta name="robots" content="noindex, nofollow">
     {{ end }}
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Quattrocento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=lato:400,700|quattrocento&display=swap" rel="stylesheet">
 
     {{ $css := resources.Get "/styles/main.css" }}
     {{ $css = $css | css.PostCSS }}
