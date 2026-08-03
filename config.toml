@@ -6,10 +6,7 @@ theme = "dawnstar2018"
 [privacy]
   [privacy.disqus]
     disable = true
-  [privacy.instagram]
-    disable = false
-    simple = false
-  [privacy.twitter]
+  [privacy.x]
     disable = false
     enableDNT = false
     simple = false
