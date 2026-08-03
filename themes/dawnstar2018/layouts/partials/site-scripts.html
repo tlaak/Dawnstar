@@ -1,4 +1,0 @@
-{{ $script := .Site.Data.manifest.js }}
-{{ with $script }}
-  <script src="{{ relURL (printf "%s%s" "dist/" .) }}"></script>
-{{ end }}
