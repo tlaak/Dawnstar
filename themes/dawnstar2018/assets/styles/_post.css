@@ -4,7 +4,11 @@
 }
 
 .post__header {
-  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0 1.5rem;
+  padding-left: 1rem;
+  border-left: 4px solid hsl(211, 100%, 51%);
 }
 
 .post__content p {
@@ -22,7 +26,12 @@
 }
 
 .post__date {
-  font-size: 1rem;
+  order: -1;
+  margin: 0.4rem 0 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: hsl(0, 0%, 45%);
 }
 
 .post__full-post-link {
