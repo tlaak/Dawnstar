@@ -18,7 +18,7 @@
     "browserslist": "^4.21.5",
     "postcss": "^8.4.23",
     "postcss-cli": "^10.1.0",
-    "postcss-import": "^15.1.0",
+    "postcss-import": "^16.1.1",
     "postcss-nested": "^6.0.1",
     "postcss-normalize": "^10.0.1",
     "postcss-preset-env": "^8.3.2",
