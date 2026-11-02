@@ -8,7 +8,19 @@ This is the repository for my Dawnstar blog
 
 ## Howto
 
-You'll need a hugo binary, which can be installed with `brew install hugo`.
+Use Hugo `0.169.0` and Node.js `26.13.0` (Lithium LTS). `mise.toml` pins both
+runtimes to match Netlify; `.nvmrc` also pins Node for nvm users. Keep these
+version settings synchronized when upgrading.
+
+With [mise](https://mise.jdx.dev/) installed, run:
+
+```sh
+mise install
+mise exec -- npm ci
+```
+
+With mise activated in your shell, `hugo`, `node`, and `npm` use the project
+versions automatically. Otherwise, prefix the commands below with `mise exec --`.
 
 ### Write a new post
 
@@ -17,3 +29,11 @@ You'll need a hugo binary, which can be installed with `brew install hugo`.
 ### Preview changes locally
 
 `hugo serve` and open http://localhost:1313 in your browser.
+
+### Build for production
+
+```sh
+HUGO_ENVIRONMENT=production hugo
+```
+
+This also runs PurgeCSS against Hugo's generated selector statistics.
