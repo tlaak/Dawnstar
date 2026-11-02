@@ -28,7 +28,7 @@ module.exports = {
     require('autoprefixer'),
     require('postcss-import')({ path: [themeDir, projectRoot], resolve: resolveImport }),
     require('postcss-normalize'),
-    require('postcss-nested'),
+    require('postcss-nested').default,
     require('postcss-preset-env')({
       path: themeDir,
       features: {
