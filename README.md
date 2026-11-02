@@ -8,17 +8,19 @@ This is the repository for my Dawnstar blog
 
 ## Howto
 
-Use Hugo `0.164.0` and Node.js `26.13.0` (Lithium LTS). Node is pinned in
-`.nvmrc` and Netlify's `NODE_VERSION`.
+Use Hugo `0.164.0` and Node.js `26.13.0` (Lithium LTS). `mise.toml` pins both
+runtimes to match Netlify; `.nvmrc` also pins Node for nvm users. Keep these
+version settings synchronized when upgrading.
 
-`brew install hugo` installs Hugo; check that `hugo version` matches the pinned
-release. With nvm, install Node and the project dependencies:
+With [mise](https://mise.jdx.dev/) installed, run:
 
 ```sh
-nvm install
-nvm use
-npm ci
+mise install
+mise exec -- npm ci
 ```
+
+With mise activated in your shell, `hugo`, `node`, and `npm` use the project
+versions automatically. Otherwise, prefix the commands below with `mise exec --`.
 
 ### Write a new post
 
