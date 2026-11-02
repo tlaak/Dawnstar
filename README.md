@@ -8,7 +8,7 @@ This is the repository for my Dawnstar blog
 
 ## Howto
 
-Use Hugo `0.164.0` and Node.js `26.13.0` (Lithium LTS). `mise.toml` pins both
+Use Hugo `0.169.0` and Node.js `26.13.0` (Lithium LTS). `mise.toml` pins both
 runtimes to match Netlify; `.nvmrc` also pins Node for nvm users. Keep these
 version settings synchronized when upgrading.
 

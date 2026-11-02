@@ -13,9 +13,9 @@ Dawnstar is a personal blog built with Hugo, using a custom theme called `dawnst
 - `hugo new posts/my-post-name.md` - Create a new blog post
 - `hugo` - Production build (Netlify runs bare `hugo`, publishes `public/`). New posts are created as drafts (`draft: true`), so they need `hugo -D` or `draft: false` to render locally.
 
-Hugo must be installed separately (`brew install hugo`).
+Install the pinned Hugo and Node.js runtimes with `mise install` (see `mise.toml`).
 
-**Hugo version is pinned to `0.164.0`** in `netlify.toml` (`HUGO_VERSION`). Match it locally to avoid build differences. Theme requires min `0.30.1`.
+**Hugo version is pinned to `0.169.0`** in `mise.toml` and `netlify.toml` (`HUGO_VERSION`). Node.js is pinned to `26.13.0` in mise, Netlify, and `.nvmrc`. Match these versions locally to avoid build differences. Theme requires min `0.30.1`.
 
 ## Architecture
 
