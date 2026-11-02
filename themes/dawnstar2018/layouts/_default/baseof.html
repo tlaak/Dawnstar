@@ -19,12 +19,14 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=alkatra:400,700|hanken-grotesk:400,700&display=swap" rel="stylesheet">
 
-    {{ $css := resources.Get "/styles/main.css" }}
-    {{ $css = $css | css.PostCSS }}
-    {{ if hugo.IsProduction }}
-    {{ $css = $css | minify | fingerprint | resources.PostProcess }}
+    {{ with (templates.Defer (dict "key" "global-css")) }}
+      {{ $css := resources.Get "/styles/main.css" }}
+      {{ $css = $css | css.PostCSS }}
+      {{ if hugo.IsProduction }}
+      {{ $css = $css | minify | fingerprint }}
+      {{ end }}
+      <link href="{{ $css.RelPermalink }}" rel="stylesheet"  integrity="{{ $css.Data.Integrity }}"/>
     {{ end }}
-    <link href="{{ $css.RelPermalink }}" rel="stylesheet"  integrity="{{ $css.Data.Integrity }}"/>
 
     {{ block "favicon" . }}
       {{ partial "site-favicon.html" . }}

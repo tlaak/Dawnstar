@@ -34,6 +34,10 @@ The theme uses PostCSS with these features:
 
 CSS is processed through Hugo Pipes in `baseof.html`. Config is at `themes/dawnstar2018/postcss.config.js` (in the theme dir, not repo root).
 
+The stylesheet pipeline runs inside `templates.Defer` with the shared
+`global-css` key. This lets production PurgeCSS read selector statistics from
+the current render before minification and fingerprinting.
+
 `postcss-nested` 8 is ESM-only. The CommonJS PostCSS config loads its plugin with `require('postcss-nested').default`.
 
 ### Content

@@ -22,6 +22,10 @@ mise exec -- npm ci
 With mise activated in your shell, `hugo`, `node`, and `npm` use the project
 versions automatically. Otherwise, prefix the commands below with `mise exec --`.
 
+Install scripts for `fsevents` are explicitly denied in `package.json`: the
+macOS dependency ships its native binary. Review this policy if a future version
+changes its packaging.
+
 ### Write a new post
 
 `hugo new posts/my-post-name.md`
