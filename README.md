@@ -8,7 +8,17 @@ This is the repository for my Dawnstar blog
 
 ## Howto
 
-You'll need a hugo binary, which can be installed with `brew install hugo`.
+Use Hugo `0.164.0` and Node.js `26.13.0` (Lithium LTS). Node is pinned in
+`.nvmrc` and Netlify's `NODE_VERSION`.
+
+`brew install hugo` installs Hugo; check that `hugo version` matches the pinned
+release. With nvm, install Node and the project dependencies:
+
+```sh
+nvm install
+nvm use
+npm ci
+```
 
 ### Write a new post
 
@@ -17,3 +27,11 @@ You'll need a hugo binary, which can be installed with `brew install hugo`.
 ### Preview changes locally
 
 `hugo serve` and open http://localhost:1313 in your browser.
+
+### Build for production
+
+```sh
+HUGO_ENVIRONMENT=production hugo
+```
+
+This also runs PurgeCSS against Hugo's generated selector statistics.
