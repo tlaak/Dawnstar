@@ -19,7 +19,7 @@
     "postcss": "^8.4.23",
     "postcss-cli": "^10.1.0",
     "postcss-import": "^16.1.1",
-    "postcss-nested": "^8.0.0",
+    "postcss-nested": "^9.0.1",
     "postcss-normalize": "^13.0.1",
     "postcss-preset-env": "^11.3.2",
     "postcss-syntax": "^0.36.2",
